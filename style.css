@@ -1,0 +1,119 @@
+body{
+    background-color:#fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    max-width: 50%;
+    max-height:100%;
+}
+
+.container{
+    max-width: 100px;
+    margin:0 auto;
+    padding:0 30px;
+}
+
+.navbar{
+    background:bisque;
+    color:gray;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar .container{
+ display:flex;
+ align-items: center;
+ height: 100%;   
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+
+.block{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.block h3{
+    text-align: center;
+    color:lightseagreen
+}
+
+.heading{
+    text-align: center;
+    color:lightseagreen;
+}
+ 
+.block:hover{
+    background-color:silver;
+    color:#fff
+}
+
+.clr{
+    clear:both;
+}
+
+.this-form{
+    display: grid;
+    margin: auto;
+    width: 50%;
+    padding:10px 15px;
+    border:2px solid;
+    border-radius: 10px;
+}
+
+
+
+.this-form form-group{
+    padding-bottom:15px;
+}
+
+.this-form label{
+    display:block;
+}
+
+
+.form-group input[type="text"], .this-form textarea{
+    padding: 20px;
+    width:90%;
+    border-radius: 10px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding:10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+    color: gray;
+}
+
+button:hover{
+    background-color: lightseagreen;
+    color: #333;
+}
+
+.fa-stethoscope{
+    color:#333;
+}
+
+.fa-bug{
+    color:maroon;
+}
+
+.fa-syringe{
+    color:lightblue;
+}
